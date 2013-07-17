@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthServer", "..\Projects\Server\AuthServer\AuthServer.csproj", "{8497E5BC-BDA3-4216-82C0-1244CDACA222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework", "..\Projects\Library\Framework\Framework.csproj", "{B7D0E27F-3AB2-413A-B9AF-040C67750639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldServer", "..\Projects\Server\WorldServer\WorldServer.csproj", "{E27C316D-F037-4217-B36F-363132ACCC1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8497E5BC-BDA3-4216-82C0-1244CDACA222}.Debug|x64.ActiveCfg = Debug|x64
+		{8497E5BC-BDA3-4216-82C0-1244CDACA222}.Debug|x64.Build.0 = Debug|x64
+		{8497E5BC-BDA3-4216-82C0-1244CDACA222}.Release|x64.ActiveCfg = Release|x64
+		{8497E5BC-BDA3-4216-82C0-1244CDACA222}.Release|x64.Build.0 = Release|x64
+		{B7D0E27F-3AB2-413A-B9AF-040C67750639}.Debug|x64.ActiveCfg = Debug|x64
+		{B7D0E27F-3AB2-413A-B9AF-040C67750639}.Debug|x64.Build.0 = Debug|x64
+		{B7D0E27F-3AB2-413A-B9AF-040C67750639}.Release|x64.ActiveCfg = Release|x64
+		{B7D0E27F-3AB2-413A-B9AF-040C67750639}.Release|x64.Build.0 = Release|x64
+		{E27C316D-F037-4217-B36F-363132ACCC1B}.Debug|x64.ActiveCfg = Debug|x64
+		{E27C316D-F037-4217-B36F-363132ACCC1B}.Debug|x64.Build.0 = Debug|x64
+		{E27C316D-F037-4217-B36F-363132ACCC1B}.Release|x64.ActiveCfg = Release|x64
+		{E27C316D-F037-4217-B36F-363132ACCC1B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
